@@ -10,6 +10,7 @@ nvm install 22
 nvm use 22
 nvm alias default 22
 npm install -g yarn
+export PATH="$(npm bin -g):$PATH"
 sudo npm install -g localtunnel
 
 pip install git+https://github.com/huggingface/trl.git@main
