@@ -11,7 +11,7 @@ nvm use 22
 nvm alias default 22
 npm install -g yarn
 export PATH="$(npm bin -g):$PATH"
-sudo npm install -g localtunnel
+npm install -g localtunnel
 
 pip install git+https://github.com/huggingface/trl.git@main
 pip install wandb==0.15.12
