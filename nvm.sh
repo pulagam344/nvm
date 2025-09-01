@@ -10,7 +10,7 @@ nvm install 22
 nvm use 22
 nvm alias default 22
 npm install -g yarn
-!sudo npm install -g localtunnel
+sudo npm install -g localtunnel
 
 pip install git+https://github.com/huggingface/trl.git@main
 pip install wandb==0.15.12
